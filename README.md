@@ -17,12 +17,13 @@ In this project, using the credit card credit dataset from LendingClub, a peer-t
 
 . RandomOversampler
 
-SMOTE Oversampling Model:
-Accuracy Score: 0.65
-Precision: 0.99
-Recall: 0.69
-F1: 0.81
-SMOTE
+**SMOTE Oversampling Model:**
+
+. Accuracy Score: 0.65
+. Precision: 0.99
+. Recall: 0.69
+. F1: 0.81
+. SMOTE
 
 Cluster Centroids Undersampling Model:
 Accuracy Score: 0.65
