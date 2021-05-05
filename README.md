@@ -2,7 +2,9 @@
 
 ## Overview:
 
-In this project, using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, I oversampled the data using the RandomOverSampler and SMOTE algorithms and undersampled the data using the ClusterCentroids algorithm. Then, I used a combinatorial approach of over and undersampling using the SMOTEENN algorithm. Next, I compared two new machine learning models that reduce bias, BalancedRandomForestClassifier, and EasyEnsembleClassifier, to predict credit risk. Finally, I evaluated the performance of these models and made a written recommendation on whether they should be used to predict credit risk.
+In this project, using the credit card, credit dataset from LendingClub, a peer-to-peer lending services company, I oversampled the data using the RandomOverSampler and SMOTE algorithms and undersampled the data using the ClusterCentroids algorithm. Then, I used a combinatorial approach of over and undersampling using the SMOTEENN algorithm. Next, I compared two new machine learning models that reduce bias, BalancedRandomForestClassifier, and EasyEnsembleClassifier, to predict credit risk. Then, I evaluated the performance of these models and made a written recommendation on whether they should be used to predict credit risk.
+
+Not only in this situation but also we need to know that when people borrow money to purchase homes, cars, starting a new business and pursue their education. Loans are an important part to modern society. These loans can present opportunity and challenges to banks and other lending institutions. So it is very important for lenders to make sure the borrower will be a good candidate in order not to put their money in risk.
 
 ## Results:
 **Random Over Sampler (Naive Random Oversampling) Model:**
@@ -54,7 +56,7 @@ In this project, using the credit card credit dataset from LendingClub, a peer-t
 
 . F1: 0.72
 
-## SMOTEENN
+### SMOTEENN
 
 ![Smoteen_combination](https://user-images.githubusercontent.com/74233163/117126748-d65fcb80-ad60-11eb-9afd-2d720da41963.png)
 
@@ -70,7 +72,7 @@ In this project, using the credit card credit dataset from LendingClub, a peer-t
 
 . F1: 0.93
 
-# BalancedRandomForestClassifier
+# Balanced Random Forest Classifier
 
 ![Balanced_RandomForestClassifier](https://user-images.githubusercontent.com/74233163/117126146-f93db000-ad5f-11eb-99b3-249d10eff912.png)
 
